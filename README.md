@@ -1,56 +1,103 @@
-# 🚀 Asbin Ghimire | Backend Developer Portfolio
+<div align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=00ffcc&height=220&section=header&text=Asbin%20Ghimire&fontSize=65&fontColor=ffffff&animation=fadeIn&desc=Backend%20Developer%20%7C%20System%20Architect&descSize=22&descAlignY=70" />
 
-![Status](https://img.shields.io/badge/Status-SYSTEM__ONLINE-success?style=for-the-badge&color=00ffcc)
-![Tech Stack](https://img.shields.io/badge/Tech_Stack-HTML5%20%7C%20CSS3%20%7C%20JS%20%7C%20GSAP-informational?style=for-the-badge&color=0a0a0a)
+  <h3><b>SECURE UPLINK ESTABLISHED</b></h3>
+  <p>Building scalable systems, secure APIs, and modern digital experiences.</p>
 
-Welcome to the source code for my personal portfolio. This project isn't just a static resume; it's a **high-fidelity, interactive, military-grade HUD (Heads-Up Display) experience** designed to showcase my skills as a Backend Developer and System Architect.
+  <p>
+    <a href="https://asbinghimire.github.io/"><img src="https://img.shields.io/badge/LIVE_DEMO-SYSTEM_ONLINE-00ffcc?style=for-the-badge&logo=vercel&logoColor=black" alt="Live Demo" /></a>
+    <img src="https://img.shields.io/badge/STATUS-OPERATIONAL-success?style=for-the-badge&logo=statuspage&logoColor=white" alt="Status" />
+  </p>
 
-🌍 **Live Demo:** [https://asbinghimire.github.io/](https://asbinghimire.github.io/) *(Update URL if different)*
+  <p>
+    <a href="https://www.linkedin.com/in/asbin-ghimire-931832274"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
+    <a href="mailto:ghimireasbin12@gmail.com"><img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" /></a>
+    <a href="https://github.com/AsbinGhimire"><img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" /></a>
+  </p>
+</div>
+
+<br/>
+
+> **Mission Brief:** This repository houses the source code for my interactive, high-fidelity portfolio. Designed with a **military-grade HUD (Heads-Up Display)** aesthetic, it serves as a command center showcasing my backend expertise, database architecture, and cloud deployment capabilities.
+
+<br/>
+
+## ⚡ System Architecture & Features
+
+<table>
+  <tr>
+    <td width="50%">
+      <h3>🛸 Tactical HUD Interface</h3>
+      <p>A premium, dark-mode aesthetic featuring scanlines, noise overlays, dynamic crosshair cursors, and ambient glowing orbs for deep immersion.</p>
+    </td>
+    <td width="50%">
+      <h3>💻 Interactive Terminal Logs</h3>
+      <p>A visually stunning animated terminal simulation featuring live server log streams to demonstrate real-time backend deployment scenarios.</p>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%">
+      <h3>🧲 Magnetic UI Dynamics</h3>
+      <p>Smooth, physics-based hover interactions powered by GSAP for navigation links, project cards, and action buttons.</p>
+    </td>
+    <td width="50%">
+      <h3>📡 Tactical Comm Tablet</h3>
+      <p>A highly immersive "Contact" section styled as a military command tablet, featuring a rotating radar, biometric UI, and encrypted connection logs.</p>
+    </td>
+  </tr>
+</table>
+
+<br/>
+
+## 🛠️ Technical Arsenal
+
+<div align="center">
+  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python" />
+  <img src="https://img.shields.io/badge/Django-092E20?style=for-the-badge&logo=django&logoColor=white" alt="Django" />
+  <img src="https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white" alt="Node.js" />
+  <img src="https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white" alt="PostgreSQL" />
+  <img src="https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazon-aws&logoColor=white" alt="AWS" />
+  <br/>
+  <br/>
+  <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" alt="HTML5" />
+  <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" alt="CSS3" />
+  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" alt="JavaScript" />
+  <img src="https://img.shields.io/badge/GSAP-88CE02?style=for-the-badge&logo=greensock&logoColor=white" alt="GSAP" />
+</div>
+
+<br/>
+
+## 🚀 Deployment Protocol
+
+This system operates as a zero-dependency static frontend architecture. Initiating the local environment requires minimal overhead:
+
+```bash
+# 1. Clone the core repository
+git clone https://github.com/AsbinGhimire/asbinghimire.github.io.git
+
+# 2. Access the directory
+cd asbinghimire.github.io
+
+# 3. Launch the visual interface
+# Open index.html in any standard web browser.
+```
+*Note: For optimal rendering and CORS bypass, deploying via a local server (e.g., VS Code Live Server) is recommended.*
+
+<br/>
+
+## 📡 Establish Uplink
+
+Looking to integrate robust backend solutions, design scalable database architectures, or optimize cloud infrastructure? 
+
+<div align="center">
+  <strong><a href="mailto:ghimireasbin12@gmail.com">Initiate Secure Comm Channel →</a></strong>
+</div>
+
+<br/>
 
 ---
 
-## ⚡ Core Features
-
-- **Futuristic HUD Interface:** A premium, dark-mode aesthetic featuring scanlines, noise overlays, dynamic crosshair cursors, and ambient glowing orbs.
-- **Interactive Terminal:** A visually stunning animated terminal simulation with typed text and live server log streaming to demonstrate backend deployment scenarios.
-- **Server Rack Visualizations:** Custom CSS animations representing blinking server racks to emphasize backend infrastructure expertise.
-- **Magnetic UI Elements:** Smooth, physics-based hover interactions powered by GSAP for navigation links, project cards, and buttons.
-- **Tactical Comm Tablet:** A highly immersive "Contact" section styled as a military command tablet, featuring a rotating radar, animated fingerprint scanner, and biometric UI elements.
-- **Technical Arsenal Grid:** A sleek, glassmorphism-styled grid showcasing my technical stack (Django, Python, Node.js, PostgreSQL, AWS, etc.).
-
-## 🛠️ Technology Stack
-
-- **Structure:** Semantic HTML5
-- **Styling:** Custom Vanilla CSS3 (CSS Variables, Flexbox/Grid, Glassmorphism, Complex Keyframe Animations)
-- **Logic & Interactions:** Vanilla JavaScript (ES6+)
-- **Animation Engine:** [GSAP (GreenSock)](https://gsap.com/) for complex, high-performance animations and ScrollTrigger for scroll-based events.
-- **Smooth Scrolling:** [Lenis](https://lenis.studiofreight.com/) for a fluid scrolling experience.
-- **Icons:** [Boxicons](https://boxicons.com/)
-
-## 🚀 Getting Started
-
-Since this is a frontend-only static site, running it locally is incredibly straightforward.
-
-1. **Clone the repository:**
-   ```bash
-   git clone https://github.com/AsbinGhimire/asbinghimire.github.io.git
-   ```
-2. **Navigate to the directory:**
-   ```bash
-   cd asbinghimire.github.io
-   ```
-3. **Launch the project:**
-   Simply open the `index.html` file in any modern web browser.
-   *(Tip: Use VS Code's "Live Server" extension for the best local development experience).*
-
-## 📡 Initialize Connection (Contact)
-
-I am always open to discussing backend architecture, cloud infrastructure, or opportunities to build robust systems.
-
-- **Email:** ghimireasbin12@gmail.com
-- **LinkedIn:** [Asbin Ghimire](https://www.linkedin.com/in/asbin-ghimire-931832274)
-- **GitHub:** [AsbinGhimire](https://github.com/AsbinGhimire)
-
----
-*> ESTABLISHING GOOD_CONNECTIONS... HANDSHAKE SUCCESSFUL.*
-*Engineered with precision by Asbin Ghimire.*
+<div align="center">
+  <p><code>> COMM_CHN_STABLE // NO_INTERFERENCE_DETECTED // SESSION_ENCRYPTED_AES256</code></p>
+  <p><i>Engineered with precision by Asbin Ghimire.</i></p>
+</div>
