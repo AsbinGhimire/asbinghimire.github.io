@@ -32,8 +32,9 @@ document.addEventListener("DOMContentLoaded", () => {
     const cursorPoint = document.querySelector('.cursor-point');
     const cursorTargeter = document.querySelector('.cursor-targeter');
     const cursorRadar = document.querySelector('.cursor-radar');
+    const isFinePointer = window.matchMedia("(pointer: fine)").matches;
     
-    if (customCursor && cursorPoint && cursorTargeter && cursorRadar) {
+    if (customCursor && cursorPoint && cursorTargeter && cursorRadar && isFinePointer) {
         document.addEventListener('mousemove', (e) => {
             const { clientX: x, clientY: y } = e;
             
@@ -155,16 +156,55 @@ document.addEventListener("DOMContentLoaded", () => {
     lenis.on('scroll', (e) => {
         const currentScrollY = window.scrollY;
         
-        if (currentScrollY > lastScrollY && currentScrollY > 100) {
+        // Don't hide navbar if mobile menu is open
+        if (navbar && navbar.classList.contains('nav-active')) {
+            lastScrollY = currentScrollY;
+            return;
+        }
+        
+        if (navbar && currentScrollY > lastScrollY && currentScrollY > 100) {
             // Scrolling down & past top
             navbar.style.transform = 'translateY(-100%)';
-        } else {
+        } else if (navbar) {
             // Scrolling up
             navbar.style.transform = 'translateY(0)';
         }
         
         lastScrollY = currentScrollY;
     });
+
+    // --- 2.5 Mobile Navigation Menu Toggle ---
+    const navToggle = document.querySelector('.nav-toggle');
+    const navLinks = document.querySelectorAll('.nav-links a');
+
+    if (navToggle && navbar) {
+        navToggle.addEventListener('click', () => {
+            navbar.classList.toggle('nav-active');
+            
+            // Toggle body overflow to prevent background scrolling when menu is open
+            if (navbar.classList.contains('nav-active')) {
+                lenis.stop(); // Stop Lenis smooth scroll
+                document.body.style.overflow = 'hidden';
+            } else {
+                lenis.start(); // Start Lenis smooth scroll
+                document.body.style.overflow = '';
+            }
+            
+            // Refresh ScrollTrigger to ensure correct calculations
+            setTimeout(() => {
+                ScrollTrigger.refresh();
+            }, 300);
+        });
+
+        // Close menu when a link is clicked
+        navLinks.forEach(link => {
+            link.addEventListener('click', () => {
+                navbar.classList.remove('nav-active');
+                lenis.start();
+                document.body.style.overflow = '';
+            });
+        });
+    }
 
     // --- 3. Terminal Typing Animation ---
     const terminalLines = [
